@@ -1,13 +1,22 @@
 .background {
   font-family: myFont;
   .container {
-    .github {
-      color: green;
-      font-size: 25px;
-      background-color: transparent;
-    }
-    .menu-1 {
-      color: #fff !important;
+    .navigation {
+      z-index: 999;
+      .menu-1 {
+        color: whitesmoke;
+        font-size: 18px;
+      }
+      .menu-1:hover {
+        color: whitesmoke;
+      }
+      .menu-2 {
+        color: whitesmoke;
+        font-size: 20px;
+      }
+      .menu-2:hover {
+        color: whitesmoke;
+      }
     }
   }
 }

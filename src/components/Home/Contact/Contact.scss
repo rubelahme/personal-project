@@ -1,12 +1,25 @@
 .contact {
   font-family: myFont;
+  background-image: linear-gradient(to right, #000b34, #0073a0);
+  padding-bottom: 50px;
   .container {
     h1 {
       font-weight: 700;
     }
     h3 {
-      margin-top: 50px;
-      margin-bottom: 30px;
+      padding-top: 50px;
+      padding-bottom: 30px;
+      color: white;
+    }
+    .submit {
+      background-image: linear-gradient(to right, #000b34, #0073a0);
+      color: whitesmoke;
+      border-radius: 10px;
+      box-shadow: 2px 2px 4px #000b34;
+      border: none;
+    }
+    .submit:hover {
+      background-image: linear-gradient(to right, #0073a0, #000b34);
     }
     .Info {
       padding-bottom: 25px;
@@ -33,8 +46,8 @@
       box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.7);
     }
     h1 {
-      color: black;
-      margin-top: 70px;
+      color: whitesmoke;
+      padding-top: 35px;
       text-align: center;
       margin-bottom: 50px;
     }

@@ -1,14 +1,14 @@
 .footer {
   font-family: myFont;
-  background: #efefef;
+  background-image: linear-gradient(to right, #000b34, #0073a0);
   color: #888;
   font-size: 14px;
-  margin-top: 50px;
+  border-top: 1px solid #0073a0;
   padding-top: 70px;
   padding-bottom: 70px;
   width: 100%;
   h4 {
-    color: black;
+    color: whitesmoke;
     margin-top: 10px;
   }
   p {
@@ -25,7 +25,7 @@
     p {
       padding-top: 40px;
       text-align: center;
-      color: black;
+      color: whitesmoke;
       font-size: 17;
       font-weight: 500;
     }

@@ -6,7 +6,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <>
-      <div className="background mb-5">
+      <div className="background ">
         <div className="container">
           <Navbers></Navbers>
           <MainMenu></MainMenu>

@@ -98,7 +98,7 @@ const Skill = () => {
                 href="https://drive.google.com/file/d/1HJTs9NpRwdYKcgRv4xA5tgZ1PCpo1oPB/view"
                 target="_blank"
                 rel="noreferrer"
-                className="btn btn-success my-3 text-light"
+                className="btn  my-3 text-light"
               >
                 Resume Download
               </a>

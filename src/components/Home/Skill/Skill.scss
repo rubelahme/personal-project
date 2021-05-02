@@ -1,15 +1,28 @@
 .skill {
   font-family: myFont;
+  background-image: linear-gradient(to right, #000b34, #0073a0);
+  padding-bottom: 40px;
+  border-bottom: 1px solid #0073a0;
   .container {
+    a {
+      background-image: linear-gradient(to right, #000b34, #0073a0);
+      border-radius: 10px;
+      font-weight: 700;
+    }
+    a:hover {
+      background-image: linear-gradient(to right, #0073a0, #000b34);
+    }
     h1 {
       font-weight: 700;
+      color: whitesmoke;
     }
     .menu-item {
       .image {
         width: 100%;
         height: 200px;
-        box-shadow: 4px 4px 10px grey;
+        box-shadow: 4px 4px 10px #000b34;
         transition: width 2s, height 2s, transform 2s;
+        border-radius: 10px;
       }
       .image:hover {
         width: 98%;
@@ -19,19 +32,17 @@
         margin-top: 40px;
         width: 100%;
         height: 370px;
-        box-shadow: 4px 4px 10px 3px grey;
+        box-shadow: 4px 4px 10px 3px #000b34;
         transition: width 2s, height 2s, transform 2s;
+        border-radius: 10px;
       }
       .image1:hover {
         width: 98%;
         height: 350px;
       }
     }
-    h1 {
-      color: black;
-    }
     h2 {
-      color: black;
+      color: whitesmoke;
     }
     p {
       color: #939393;

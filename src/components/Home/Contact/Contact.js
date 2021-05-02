@@ -58,7 +58,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <button class="btn btn-success rounded-pill my-3" type="submit">
+                <button class="btn submit  my-3" type="submit">
                   Submit form
                 </button>
               </form>
@@ -70,7 +70,7 @@ const Contact = () => {
                 <span>
                   <FontAwesomeIcon className="github" icon={faMapMarkerAlt} />
                 </span>{" "}
-                43 Raymouth Rd. Baltemoer, London 3910
+                Madhupur, Tangail, Dhaka, Bangladesh
               </p>
               <p className="address-1">
                 <span>

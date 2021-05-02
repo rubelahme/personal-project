@@ -2,11 +2,26 @@
   .container {
     .menu-text {
       height: calc(90vh);
+      .github {
+        border: 1px solid #003f74;
+        margin: 15px;
+        background-image: linear-gradient(45deg, #0073a0, #000b34);
+        color: #1ba4de;
+        font-size: 18px;
+        border-radius: 7px;
+        width: 10%;
+      }
+      .github:hover {
+        background-image: linear-gradient(45deg, #000b34, #0073a0);
+      }
       h1 {
         color: #fff;
-        font-size: 55px;
-        font-weight: 900;
+        font-size: 50px;
+        font-weight: 700;
         line-height: 1;
+        p {
+          font-size: 50px;
+        }
       }
       p {
         color: #fff;
@@ -21,11 +36,17 @@
     .container {
       .menu-text {
         height: calc(90vh);
+        .github {
+          width: 20%;
+        }
         h1 {
           color: #fff;
           font-size: 30px;
           font-weight: 700;
           line-height: 1;
+          p {
+            font-size: 30px;
+          }
         }
         p {
           color: #fff;

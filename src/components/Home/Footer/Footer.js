@@ -19,11 +19,11 @@ const Footer = () => {
           <div className="col-md-3 ">
             <div className="Services">
               <h4>Navagation</h4>
-              <p>HTML5</p>
-              <p>CSS3</p>
+              <p>React Js</p>
+              <p>Javascript</p>
+              <p>Node Js</p>
               <p>jQuery</p>
               <p>Bootstrap</p>
-              <p>Javascript</p>
             </div>
           </div>
           <div className="col-md-3">
