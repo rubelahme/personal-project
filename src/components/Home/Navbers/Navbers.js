@@ -6,7 +6,7 @@ import "./Navbers.scss";
 const Navbers = () => {
   const Link = [
     {
-      link: "#features",
+      link: "/#",
       name: "Home",
     },
     {
@@ -25,13 +25,13 @@ const Navbers = () => {
 
   return (
     <div className="navigation">
-      <Navbar collapseOnSelect expand="lg" variant="light">
-        <Navbar.Brand href="#home" className="menu-2">
+      <Navbar collapseOnSelect expand="lg" fixed="top" variant="light">
+        <Navbar.Brand href="#" className="menu-2">
           React Developer
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav className="ml-auto ">
             {Link.map((pd) => (
               <Nav.Link className="menu-1" href={pd.link}>
                 {pd.name}

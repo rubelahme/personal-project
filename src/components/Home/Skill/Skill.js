@@ -80,7 +80,7 @@ const Skill = () => {
           </div>
           <div className="col-md-6">
             <div>
-              <h2>Summary</h2>
+              <h2 className="pt-1">Summary</h2>
               <p>
                 Good to see you here :) <br /> I am Rubel Ahmed and I'm a young
                 web developer with almost 2 years of experience as a Frontend
