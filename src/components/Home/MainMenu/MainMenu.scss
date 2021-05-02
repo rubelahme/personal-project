@@ -1,0 +1,38 @@
+.background {
+  .container {
+    .menu-text {
+      height: calc(90vh);
+      h1 {
+        color: #fff;
+        font-size: 55px;
+        font-weight: 900;
+        line-height: 1;
+      }
+      p {
+        color: #fff;
+        line-height: 1.5;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .background {
+    .container {
+      .menu-text {
+        height: calc(90vh);
+        h1 {
+          color: #fff;
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 1;
+        }
+        p {
+          color: #fff;
+          line-height: 1.5;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

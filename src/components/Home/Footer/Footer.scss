@@ -1,0 +1,41 @@
+.footer {
+  font-family: myFont;
+  background: #efefef;
+  color: #888;
+  font-size: 14px;
+  margin-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width: 100%;
+  h4 {
+    color: black;
+    margin-top: 10px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .Services {
+    margin-left: 50px;
+    p {
+      font-size: 15px;
+      margin-bottom: 9px;
+    }
+  }
+  .copy {
+    p {
+      padding-top: 40px;
+      text-align: center;
+      color: black;
+      font-size: 17;
+      font-weight: 500;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    .Services {
+      margin-left: 0;
+    }
+  }
+}

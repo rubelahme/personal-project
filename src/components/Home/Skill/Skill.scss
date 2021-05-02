@@ -1,0 +1,41 @@
+.skill {
+  font-family: myFont;
+  .container {
+    h1 {
+      font-weight: 700;
+    }
+    .menu-item {
+      .image {
+        width: 100%;
+        height: 200px;
+        box-shadow: 4px 4px 10px grey;
+        transition: width 2s, height 2s, transform 2s;
+      }
+      .image:hover {
+        width: 98%;
+        height: 185px;
+      }
+      .image1 {
+        margin-top: 40px;
+        width: 100%;
+        height: 370px;
+        box-shadow: 4px 4px 10px 3px grey;
+        transition: width 2s, height 2s, transform 2s;
+      }
+      .image1:hover {
+        width: 98%;
+        height: 350px;
+      }
+    }
+    h1 {
+      color: black;
+    }
+    h2 {
+      color: black;
+    }
+    p {
+      color: #939393;
+      font-size: 17px;
+    }
+  }
+}
