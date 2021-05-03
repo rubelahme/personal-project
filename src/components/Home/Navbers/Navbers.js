@@ -22,7 +22,6 @@ const Navbers = () => {
       name: "Contact Me",
     },
   ];
-
   return (
     <div className="navigation">
       <Navbar collapseOnSelect expand="lg" fixed="top" variant="light">

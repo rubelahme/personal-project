@@ -12,8 +12,8 @@ const Footer = () => {
               This letter is an express my interest in the job posted on your
               website for an experienced, front-end web developer. As you can
               see, I have two years of hands-on experience efficiently coding
-              websites and applications using modern HTML, CSS, and Javascript,
-              React js.
+              websites and applications using modern{" "}
+              <strong>REACT JS, NODE JS, JAVASCRIPT, MONGODB etc.</strong>
             </p>
           </div>
           <div className="col-md-3 ">
@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="col-md-3">
             <div>
               <h4>Contact Info</h4>
-              <p>43 Raymouth Rd. Baltemoer, London 3910</p>
+              <p>Madhupur, Tangail, Dhaka, Bangladesh</p>
               <p>+880-1862-678333</p>
               <p>+880-1306-649925</p>
               <p>rubelahme@gmail.com</p>

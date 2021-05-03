@@ -14,7 +14,7 @@ const MainMenu = () => {
             I'm Rubel Ahmed <br />{" "}
             <Typical
               steps={[
-                "Full Stack Web Developer",
+                "Mern Stack Web Developer",
                 3000,
                 "Front-End Web Developer",
                 4000,
