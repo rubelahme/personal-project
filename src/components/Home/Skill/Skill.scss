@@ -20,6 +20,7 @@
       .image {
         width: 100%;
         height: 200px;
+        filter: saturate(2);
         box-shadow: 4px 4px 10px #000b34;
         transition: width 2s, height 2s, transform 2s;
         border-radius: 10px;
@@ -32,7 +33,8 @@
         margin-top: 50px;
         width: 100%;
         height: 370px;
-        box-shadow: 4px 4px 10px 3px #000b34;
+        filter: saturate(3);
+        box-shadow: 4px 4px 10px #000b34;
         transition: width 2s, height 2s, transform 2s;
         border-radius: 10px;
       }

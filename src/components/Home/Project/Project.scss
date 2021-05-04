@@ -38,6 +38,8 @@
       height: 200px;
       margin-top: 15px;
       transition: width 2s, height 2s, transform 2s;
+      filter: saturate(2);
+      cursor: pointer;
       box-shadow: 3px 3px 6px 4px #000b34;
       border-radius: 10px;
     }
