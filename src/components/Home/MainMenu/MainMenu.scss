@@ -5,11 +5,12 @@
       .github {
         border: 1px solid #003f74;
         margin: 15px;
-        background-image: linear-gradient(45deg, #0073a0, #000b34);
+        background-image: linear-gradient(45deg, #0073a0, #0e1324);
+        box-shadow: 2px 2px 3px 2px #c3cdbd;
         color: #1ba4de;
         font-size: 18px;
         border-radius: 7px;
-        width: 10%;
+        width: 15%;
       }
       .github:hover {
         background-image: linear-gradient(45deg, #000b34, #0073a0);
@@ -38,10 +39,13 @@
         height: calc(90vh);
         .github {
           width: 20%;
+          span {
+            display: none;
+          }
         }
         h1 {
           color: #fff;
-          font-size: 30px;
+          font-size: 27px;
           font-weight: 700;
           line-height: 1;
           p {

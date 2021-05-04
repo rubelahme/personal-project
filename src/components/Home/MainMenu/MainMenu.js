@@ -34,7 +34,7 @@ const MainMenu = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} /> <span>Github</span>
             </a>
             <span>
               <a
@@ -43,7 +43,7 @@ const MainMenu = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FontAwesomeIcon icon={faLinkedin} />
+                <FontAwesomeIcon icon={faLinkedin} /> <span>Linkedin</span>
               </a>
             </span>
             <span>
@@ -53,7 +53,7 @@ const MainMenu = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FontAwesomeIcon icon={faFile} />
+                <FontAwesomeIcon icon={faFile} /> <span>Resume</span>
               </a>
             </span>
           </div>

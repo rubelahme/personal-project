@@ -41,6 +41,8 @@ const Skill = () => {
       now: 92,
       id: 4,
     },
+
+    { name: "Material-ui", design: "92%", now: 92, id: 4 },
     {
       name: "mongoDB",
       design: "85%",

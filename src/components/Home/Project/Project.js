@@ -1,8 +1,8 @@
 import React from "react";
 import "./Project.scss";
-import img from "../../../img/images1111.jpg";
-import img1 from "../../../img/hd.jpg";
-import img2 from "../../../img/male.png";
+import img from "../../../img/jdhgff.jpg";
+import img1 from "../../../img/images.jpg";
+import img2 from "../../../img/akjhfjf.png";
 const Project = () => {
   return (
     <div className="project">
@@ -19,15 +19,15 @@ const Project = () => {
           <div className="col-md-6">
             <h5>Mobile Service Center</h5>
             <p>
-              <strong>Details:</strong> A single-page web application shows an
-              online mobile service system. The attractive application user
-              interfaces design and user authentication system Firebase as Login
+              Details: A single-page web application shows an online mobile
+              service system. The attractive application user interfaces design
+              and user authentication system Firebase as Login
               authentication(react-router). Creact admin panel, user review
               system, and show home page.
               <br />
               <br />
-              <strong>Technologies:</strong> ReactJs, JavaScript, NodeJs,
-              MongoDB, ExpressJs, CSS, Bootstrap, react-hook-form etc.
+              Technologies: ReactJs, JavaScript, NodeJs, MongoDB, ExpressJs,
+              CSS, Bootstrap, react-hook-form etc.
             </p>
             <a
               href="https://determined-poitras-8b392b.netlify.app"
@@ -67,13 +67,13 @@ const Project = () => {
           <div className="col-md-6 pt-2">
             <h5>World Best Car</h5>
             <p>
-              <strong>Details:</strong> A single-page web application shows an
-              online Car buying system. The attractive application user
-              interfaces design and user authentication system Firebase.
+              Details: A single-page web application shows an online Car buying
+              system. The attractive application user interfaces design and user
+              authentication system Firebase.
               <br />
               <br />
-              <strong>Technologies:</strong> React Js, react-route, Bootstrap,
-              firebase, react hook form, HTML5, CSS etc.
+              Technologies: React Js, react-route, Bootstrap, firebase, react
+              hook form, HTML5, CSS etc.
             </p>
             <a
               href="https://jovial-sinoussi-9fbca3.netlify.app/"
@@ -103,13 +103,11 @@ const Project = () => {
           <div className="col-md-6 pt-3">
             <h5>Best Sports Club</h5>
             <p>
-              <strong>Details:</strong>A single page web application show team
-              information and details. The attractive application user
-              interfaces design.
+              Details:A single page web application show team information and
+              details. The attractive application user interfaces design.
               <br />
               <br />
-              <strong>Technologies:</strong> React, Bootstrap, Netlify, HTML5,
-              CSS etc.
+              Technologies: React, Bootstrap, Netlify, HTML5, CSS etc.
             </p>
             <a
               href="https://clubmanager.netlify.app"
