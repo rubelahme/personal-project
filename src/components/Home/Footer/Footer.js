@@ -40,7 +40,7 @@ const Footer = () => {
               <p>Madhupur, Tangail, Dhaka, Bangladesh</p>
               <p>+880-1862-678333</p>
               <p>+880-1306-649925</p>
-              <p>rubelahme@gmail.com</p>
+              <p>rubelahme3303@gmail.com</p>
             </div>
           </div>
         </div>

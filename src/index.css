@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "myFont";
   src: local("myFont"), url(./img/Qlassik_TB.ttf) format("ttf");

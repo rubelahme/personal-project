@@ -22,6 +22,7 @@ const Contact = () => {
                       type="text"
                       class="form-control Info"
                       id="validationServer01"
+                      name="first name"
                       required
                     />
                   </div>
@@ -31,6 +32,7 @@ const Contact = () => {
                       type="text"
                       class="form-control Info"
                       id="validationServer02"
+                      name="last name"
                       required
                     />
                   </div>
@@ -42,6 +44,7 @@ const Contact = () => {
                       type="email"
                       class="form-control Info"
                       id="validationServer03"
+                      name="email"
                       required
                     />
                   </div>
@@ -53,6 +56,7 @@ const Contact = () => {
                     <textarea
                       class="form-control Message"
                       id="validationTextarea"
+                      name="textarea"
                       required
                     ></textarea>
                   </div>
@@ -93,7 +97,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  rubelahme@gmail.com
+                  rubelahme3303@gmail.com
                 </a>
               </p>
             </div>
