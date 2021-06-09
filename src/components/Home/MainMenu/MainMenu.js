@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Typical from "react-typical";
-
+import Fade from "react-reveal/Fade";
 import "./MainMenu.scss";
 const MainMenu = () => {
   return (
@@ -11,21 +11,27 @@ const MainMenu = () => {
       <div className="col-lg-12">
         <div className="center">
           <h1>
-            I'm Rubel Ahmed <br />{" "}
-            <Typical
-              steps={[
-                "Mern Stack Web Developer",
-                3000,
-                "Front-End Web Developer",
-                4000,
-              ]}
-              loop={Infinity}
-              wrapper="p"
-            />
+            <Fade top duration={4000} distance="300px">
+              <p className="p-0 m-0 ">I'm Rubel Ahmed</p>
+            </Fade>
+            <Fade top duration={4000} className="Rubel" distance="300px">
+              <Typical
+                steps={[
+                  "React.Js Developer",
+                  3000,
+                  "Front-End Web Developer",
+                  3000,
+                ]}
+                loop={Infinity}
+                wrapper="p"
+              />
+            </Fade>
           </h1>
           <p>
-            I would like to introduce myself to you as I believe I have the
-            skills.
+            <Fade top duration={4000} distance="300px">
+              I want to introduce myself to you because I believe I have the
+              skills.
+            </Fade>
           </p>
           <div>
             <a

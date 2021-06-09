@@ -26,7 +26,7 @@ const Navbers = () => {
     <div className="navigation">
       <Navbar collapseOnSelect expand="lg" fixed="top" variant="light">
         <Navbar.Brand href="#" className="menu-2">
-          React Developer
+          Rubel Ahmed
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
